@@ -1,0 +1,153 @@
+.donation {
+  margin: 80px auto;
+  width: 100%;
+  /* text-align: center; */
+  padding: 1rem;
+  background-color: #e1feff;
+}
+
+.donation-heading {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.donation h3 {
+  font-weight: 200;
+  font-weight: 28px;
+  /* color: #212ea0; */
+}
+.donation h2 {
+  font-size: 35px;
+  color: #000f38;
+  /* margin: 10px 0; */
+  max-width: 400px;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 1rem;
+}
+.gallery img {
+  /* border-radius: 10px; */
+  width: 100%;
+  height: 200px;
+}
+/* .donation-card {
+  padding: 1rem;
+  position: relative;
+  height: max-content;
+}
+.donation-card h3 {
+  margin-top: 0.5rem;
+  color: white;
+}
+.donation-card p {
+  margin-top: 0.5rem;
+  color: white;
+}
+.donation-card-one {
+  width: 28%;
+  height: 440px;
+  border-radius: 1rem;
+  background-color: #1bb7bc;
+}
+
+.make-a-donation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: full;
+}
+.make-a-donation button {
+  border: 1px solid white;
+  background-color: #1bb7bc;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 1.5rem;
+} */
+.donation-card {
+  padding: 1rem;
+  position: relative;
+  height: 100%; /* Fill the parent container */
+}
+
+.donation-card h3 {
+  margin-top: 1rem;
+  color: white;
+}
+
+.donation-card p {
+  margin-top: 1rem;
+  color: white;
+}
+
+.donation-card-one {
+  width: 28%;
+  border-radius: 1rem;
+  background-color: #1bb7bc;
+}
+
+.donation-card-two {
+  width: 28%;
+  border-radius: 1rem;
+  background-color: black;
+}
+
+.donation-card-three {
+  width: 28%;
+  border-radius: 1rem;
+  background-color: red;
+}
+
+.donation-card-four {
+  width: 28%;
+  border-radius: 1rem;
+  background-color: blue;
+}
+
+.make-a-donation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.make-a-donation button {
+  border: 1px solid white;
+  background-color: #1bb7bc;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  /* Optional: align-items to center vertically */
+  align-items: center;
+}
+
+/* ------- media query ------------- */
+@media (max-width: 800px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .donation-card {
+    width: 100%;
+  }
+  .gallery img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
