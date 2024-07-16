@@ -1,0 +1,3 @@
+2 different approaches during guesstimates
+- top Down approach
+- Bottom up approach
